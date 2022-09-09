@@ -17,14 +17,18 @@
         android:theme="@style/Theme.LooperImage"
         tools:targetApi="31">
         <activity
-            android:name=".LooperActivity"
-            android:exported="true">
+            android:name=".recyclerview.RecyclerActivity"
+            android:exported="false">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".LooperActivity"
+            android:exported="true">
         </activity>
         <activity
             android:name=".ViewPager2Activity"
